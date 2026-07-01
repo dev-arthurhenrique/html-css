@@ -5,4 +5,4 @@ Estou aprendendo a gerenciar meus repositórios
 
 desafio finalizado
 
-<a href='https://dev-arthurhenrique.github.io/html-css/Desafios/d006-android'> executar o exercício android
+<a href='https://dev-arthurhenrique.github.io/html-css/Desafios/d006-android'> executar o exercício androidd
