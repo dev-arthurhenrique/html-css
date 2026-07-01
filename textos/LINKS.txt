@@ -1,0 +1,23 @@
+LINKS
+c
+seo-mecanismos de busc
+<a href="https://gustavoguanabara.github.io/" target="_blank">Clique Aqui</a></p>
+
+alvo
+targt blank arâmetro que serve para acessar o link sem fechar a janela de seu site
+
+target self é um parâmetro que abre o link substituindo a aba de seu site
+
+href -- para onde vai referencia a hyertexto
+
+rel relativo a external- link que esta fora do site
+
+next(avanço) prev(imediatamente anterior) nofollow link patrocinadoque eu não dou voto
+hreflang="pt-BR"
+
+../ volta para a pasta anterior
+
+------------------------------------
+LINKS PARA DOWNLOAD(parâmetro type tipo mme do arquivo)
+
+iana.org/assignments/media-type

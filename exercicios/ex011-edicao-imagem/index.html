@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edicao de imagem</title>
+</head>
+<body>
+   <h1>Edição de imagem</h1> 
+   <p>Podemos adaptar imagens para diferentes telas usando a tag &lt;picture&gt;</p>
+   <picture>
+    <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+    <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-p.png" alt="foto-pequena">
+   </picture>
+   <h1>Trabalhando com audio</h1>
+   <!--<audio src="media/Kuntry Boy - Anno Domini Beats.mp3" controls autoplay preload="metadata" loop></audio>  forma padrao-->
+   <audio preload="none" loop controls autoplay>
+    <source src="media/Kuntry Boy - Anno Domini Beats.mp3" type="audio/mpeg">
+    <source src="media/Kuntry Boy - Anno Domini Beats.ogg" type="audio/ogg">
+    <source src="media/Kuntry Boy - Anno Domini Beats.wav" type="audio/wav">
+    <p>Seu navegador não é compatível com audio. <a href="media/Kuntry Boy - Anno Domini Beats.mp3" download="media/Kuntry Boy - Anno Domini Beats.mp3" type="audio/mpeg">Clique Aqui</a> para baixar o audio</p>
+   </audio>
+</body>
+</html>

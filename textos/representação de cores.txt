@@ -1,0 +1,13 @@
+representação de cores
+
+blue(normal), 0000ff(hexadecimal)(1,2,3,4,5,6,7,8,9,a,b,c,d,e,f)
+
+rgb, rgba(tranparencia), hsl
+
+vermelho,verde,azul
+
+00 - mínimo de vermelho
+00 - mínimo de verde
+ff - máximo de azul
+
+HARMONIA DE CORES

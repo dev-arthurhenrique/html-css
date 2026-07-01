@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        main{
+            width: 90%;
+            margin: auto;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+   <main>
+       <h1>Trabalhando com edição de imagem em html</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At reiciendis a earum, soluta iusto ab omnis possimus reprehenderit eligendi, cupiditate rem suscipit totam animi magni quia itaque doloremque vero illo!</p>
+       <picture>
+        <source media="(min-width: 1200px)" srcset="imagens/paisagem-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-p.png" alt="imagem-pequena">
+       </picture>
+       <h1>Aqui vai aparecer mais imagens</h1>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti natus optio reiciendis amet accusantium minima pariatur nam deleniti inventore quod ullam ipsam exercitationem fugiat a, hic ad officia neque numquam.</p>
+       <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="foto-pequena">
+       </picture>
+   </main>
+</body>
+</html>

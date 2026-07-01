@@ -1,0 +1,46 @@
+IMAGENS
+
+UNSPLASH  e PEXELS site
+
+FORMATOS DE IMAGEM
+
+jpeg(jpg)-->+leve, ideal imagens maiores, + compacto
+não é transparente, perde qualidade ao aproximar a imagem texto ruim. caso eu queira transparência, ele vai ficar com o fundo de uma cor solida
+
+png --> transparente +pesado +qualidade
+
+
+DIREITOS DE USO
+
+2. Licenças Creative Commons: TRABALHO DE ESCOLA.normalmente so pede que você de créditos ao autor
+
+3. Licenças comerciais e outras: precisa paga para ter direito
+
+TAMANHO DE ARQUIVO EM SITE
+
+1200 DE LARGURA PARA FUNDO DE SITE RESOLUÇÃO: 72,OOO OU 50
+650 PARA CONTEUDO DE SITE
+200 de largura
+
+TAG EM <img> em html
+
+ctrl + space = aba para colar o arquivo da imagem
+
+link da internet. pode copiar a url, mas se o site cair, cai no meu site
+
+posso colocar em uma pasta interna
+
+favicon
+
+compatíveis
+
+.ico e .png e .svg que não tem para todo mundo
+
+site para baixar favicon: iconarchive, favicon.io, icons8
+
+site para criar sua própria favicon: favicon.cc
+
+px ideal? 48px
+
+TITULO VAI DE H1 ATE H6. USA O LOREM PARA GERAR TEXTOS
+

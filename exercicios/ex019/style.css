@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    border: none;
+    outline: none;
+    box-sizing: 0;
+}
+body{  
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #f59643, #F4D912)
+}
+header{
+    background-color: rgb(124, 124, 226);
+    box-shadow: inset 1px 1px black;
+}

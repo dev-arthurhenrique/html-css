@@ -1,0 +1,42 @@
+Destaque/Negrito(<strong>) e Enfase/Italico(<em<)
+Destaque
+
+Enfase
+
+Marcação(<mark>)
+Usamos a tag mark
+
+Subescrito(<sub>) e Sobreescrito(<sup>)
+Exemplo de sub: H20
+
+Exemplo de sup: m.v2/2
+
+Big(💀) e Small(<small>)
+Exemplo de small: ©Todos os Direitos Reservado
+
+Inserido(ins) e Deletado(del)
+Aqui temos um texto inserido. Ele merece destaque
+
+Aqui está um texto deletado. Ele póde ser lido, mas deve ser desconsiderado
+
+Codigos usando as tags(<code> e <pre>)
+       
+    let idade = 17;
+
+    if (idade >= 18) {
+        console.log("Você é maior de idade.");
+    } else {
+        console.log("Você é menor de idade.");
+    }
+       
+   
+Citação unica(<q>)(quote) ou Citação em bloco(<blockquode>)
+No livro Nunca Minta, Freida nos mostra, através de uma historia intrigante de prender o folego, a capacidade humana de falhar miseravelmente no roteiro
+
+No referido livro, a personagem Hahhan diz:
+
+Não preciso de sistema de segurança pois estou no meio do nada e preciso entender que eu sou uma mulher que não depende de ninguem e por isso não cuida da segurança pois sou foda demais para buscar esse tipo de superficialidade
+Abreviação usando a tag (<abbr>)
+HTML é uma linguagem que prioriza a semantica
+
+CSS é uma linguagem focada no estilo e forma

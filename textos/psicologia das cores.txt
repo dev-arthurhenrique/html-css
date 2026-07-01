@@ -1,0 +1,87 @@
+psicologia das cores
+
+terapia de cor
+
+combine cores complementares
+
+ferramentas de auxilio de cores(adobe kuler, material design colors,corzila, Color Scheme Designer e Colour Lovers)
+
+VERMELHO(EUFORIA URGENCIA)
+
+LARANJA(PARECIDO COM O VERMELHO,POREM MENOS AGRESSIVO)
+
+As pessoas mais impulsivas, por exemplo, reagem melhor a cores como o azul, o laranja e o preto. Mas se o seu público-alvo está em busca de preços baixos, aposte em tons como azul escuro e verde.
+
+AZUL TEM A MENOR TAXA DE REJEIÇÃO(sEGURANÇA)
+
+----------------------------------------------------
+
+REPRESENTACAO DE CORES
+
+blue(normal), 0000ff(hexadecimal)(1,2,3,4,5,6,7,8,9,a,b,c,d,e,f)
+
+rgb, rgba(tranparencia), hsl
+
+vermelho,verde,azul
+
+00 - mínimo de vermelho
+00 - mínimo de verde
+ff - máximo de azul
+
+------------------------------------------------------
+
+HARMONIA DE CORES
+
+Cores Primarias(amarelo,vermelho e azul)
+
+Cores Secundarias(verde,laranja e roxo)
+
+Cores Terciarias
+
+Classificação que gera harmonia(3 a 5 cores no maximo)
+
+--> Cores complementares(+ contraste. OPOSTAS)
+
+--> Cores análogas(- contraste. três cores que estão ao lado)
+
+-->  Cores análogas complementares (matelo, contraste alto, mas não chega ao extremo)
+
+--> Cores relacionadas(duas análogas, pula e pega)
+
+--> Cores intercaladas(- usadas. pula,pega,pula,pega,pula,pega)
+
+-->Cores triádicasagulo equilátero. Muito bom contraste
+
+--> Cores quadrados(contraste razoável
+
+--> Cores tretradicas
+
+color.adobe.com, paletton.com,ecolors
+
+#E8A149
+#E8A149
+#471B00
+#7A2B1F
+#FFEFC8
+
+degrade(background-image)
+
+*{
+configuração global (heigt 100%
+
+linear gradiente e radial gradiente(circle)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

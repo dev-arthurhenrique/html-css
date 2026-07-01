@@ -1,0 +1,7 @@
+vídeo
+
+poster
+
+vídeos incorparados externamente(youtube e vimeo) tem menos gasto de banda do que incorporado internamente
+
+vimeo tem mais qualidade mas o algoritmo é ruim se comparado ao youtube

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: blue;
+}
+h1{
+    background-color: var(--cor0);
+}

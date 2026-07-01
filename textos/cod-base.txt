@@ -1,0 +1,27 @@
+cod-base
+
+<html> tag dividida em duas 
+
+<head> configurações | <body> conteúdo
+
+utf 8 acento
+
+viaport 100 por cento da tela
+
+hr linha
+
+parágrafos e quebras
+
+br quebra de linha
+< &lt  > &gt
+
+COMENTARIO(so aparece para voce)
+
+HTML <!--assunto comentatado -->
+
+SIMBOLOS
+
+&reg; &copy;
+
+EMOJI 
+
