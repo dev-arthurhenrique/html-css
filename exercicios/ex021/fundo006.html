@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+    <style>
+        div#pai{
+            position: relative;
+            background: rgb(111, 111, 175) url(imagens/target001.png);
+            height: 90vh;
+            background-size: 100% 100%;
+        }
+        div#filho{
+            position: absolute;
+            background: rgb(252, 228, 93);
+            width: 400px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body> 
+    <h1>Centralização de contêneres</h1>
+    <div id="pai">
+        <div id="filho">
+
+        </div>
+    </div>  
+</body>
+</html>
