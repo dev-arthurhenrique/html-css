@@ -1,1 +1,8 @@
 GIT E GITHUB
+
+
+GIT(repositório local, para codigo) é um software que vai salvando as versões do meu site. Ajuda quando eu faço um projeto novo e quero voltar para o inicial. Mas se o PC DER PAU, eu perdeu tudo
+
+GITHUB(repositorio remoto)(Solução)
+
+
