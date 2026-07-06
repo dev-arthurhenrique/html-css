@@ -76,6 +76,7 @@ main > pre{
     padding-left: 35px;
 }
 div#pai{
+    width: 100%;
     background: white url(imagens/foto1.jpg) center center fixed;
     height: 350px;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.356);
@@ -93,6 +94,7 @@ div.filho > pre{
     color: white;
 }
 div#mae{
+    width: 100%;
     background: white url(imagens/foto2.jpg) center center fixed;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.356);
 }
