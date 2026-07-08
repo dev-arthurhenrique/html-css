@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            position: relative;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        table > thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: gray;
+        }
+        tbody > tr:nth-child(even){
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+   <h1>Uso de Tabelas Grandes</h1>
+   <table>
+    <caption>População do Brasil</caption>
+    <thead>
+        <tr class="gray">
+            <th scope="col">Região</th>
+            <th scope="col">Estados</th>
+            <th scope="col">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Norte</td>  
+          <td>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/20px-Bandeira_do_Acre.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Acre">Acre</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/20px-Bandeira_do_Amap%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amap%C3%A1">Amapá</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/20px-Bandeira_do_Amazonas.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amazonas">Amazonas</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/20px-Bandeira_do_Par%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Par%C3%A1">Pará</a></p>
+          </td>
+          <td>17 354 884</td>
+        </tr>
+        <tr class="gray">
+            <td>Nordeste</td>
+            <td>
+                <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bandeira_de_Alagoas.svg/20px-Bandeira_de_Alagoas.svg.png" alt=""></img><a href="https://pt.wikipedia.org/wiki/Alagoas">Alagoas</a></p>
+                <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Bahia">Bahia</a></p>
+            </td>
+            <td>54 658 515</td>
+        </tr>
+        <tr>
+          <td>Norte</td>  
+          <td>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/20px-Bandeira_do_Acre.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Acre">Acre</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/20px-Bandeira_do_Amap%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amap%C3%A1">Amapá</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/20px-Bandeira_do_Amazonas.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amazonas">Amazonas</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/20px-Bandeira_do_Par%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Par%C3%A1">Pará</a></p>
+          </td>
+          <td>17 354 884</td>
+        </tr>
+        <tr>
+          <td>Norte</td>  
+          <td>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/20px-Bandeira_do_Acre.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Acre">Acre</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/20px-Bandeira_do_Amap%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amap%C3%A1">Amapá</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/20px-Bandeira_do_Amazonas.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amazonas">Amazonas</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/20px-Bandeira_do_Par%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Par%C3%A1">Pará</a></p>
+          </td>
+          <td>17 354 884</td>
+        </tr>
+        <tr>
+          <td>Norte</td>  
+          <td>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/20px-Bandeira_do_Acre.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Acre">Acre</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/20px-Bandeira_do_Amap%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amap%C3%A1">Amapá</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/20px-Bandeira_do_Amazonas.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Amazonas">Amazonas</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/20px-Bandeira_do_Par%C3%A1.svg.png" alt=""><a href="https://pt.wikipedia.org/wiki/Par%C3%A1">Pará</a></p>
+          </td>
+          <td>17 354 884</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">População Total</th>
+        </tr>
+    </tfoot>
+   </table> 
+</body>
+</html>
