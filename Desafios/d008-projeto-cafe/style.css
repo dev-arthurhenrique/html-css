@@ -1,0 +1,115 @@
+@charset "UTF-8";
+:root{
+    --cor1: #D2AD85;
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font: normal normal 1.2em 'Arial',sans-serif;
+    position: relative;
+}
+header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    padding-left: 50px;
+    border-bottom: 1px solid white;
+    z-index: 10;
+}
+header > nav > ul{
+    padding-top: 25px;
+    padding-left: 900px;
+    padding-right: 800px;
+
+}
+header > nav > ul > li{
+    display: inline-block;
+}
+header > nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 15px;
+}
+header > nav > ul > li > a:hover{
+    color: black;
+    transition: 0.2s;
+    background-color: var(--cor1);
+    border-radius: 10px;
+}
+section#pai-inicio{
+    position: absolute;
+    background-image: url(imagens/home-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+}
+div#filho{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 550px;
+}
+div#filho > h1{
+    font: normal bolder 3.2em 'Arial';
+    padding-bottom: 40px;
+}
+div#filho > p{
+    font: normal normal 1.2em 'Arial';
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.527);
+    padding-bottom: 40px;
+}
+.sair{
+    color: white;
+    text-decoration: none;
+    font: normal normal 1.2em 'Arial';
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+.sair:hover{
+    background-color: white;
+    color: var(--cor1);
+    transition: 0.2s;
+    font-size:1.3em;
+}
+main{
+    padding-top: 1280px;
+    min-width: 200px;
+    max-width: 1540px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    font: normal bolder 2em 'Arial';
+    padding-bottom: 50px;
+}
+span{
+    color: var(--cor1); 
+}
+main > section#sobre > div#pai{
+    background-color: #111319;
+    display: flex;
+}
+main > section#sobre > div#pai > div#conteudo-sobre{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+main > section#sobre > div#pai > div#conteudo-sobre > h3{
+    font: normal bolder 1.5em 'Arial';
+    padding-bottom: 15px;
+}
+main > section#sobre > div#pai > div#conteudo-sobre > p{
+    padding-bottom: 50px;
+}
