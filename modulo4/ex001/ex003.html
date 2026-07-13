@@ -9,22 +9,19 @@
             font: normal normal 1.2em 'Arial', sans-serif;
         }
         iframe{
-            width: 100vw;
-            height: 50vh;
-            border: 2px solid black;
+            width: 600px;
+            height: 700px;
         }
     </style>
 </head>
 <body>
-   <h1>Faça uma escolha</h1> 
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sequi iste omnis consequatur minima necessitatibus est ab eveniet, vitae id vel quae magnam. Libero deleniti ab reiciendis temporibus id officia.</p>
-   <ul type="square">
-    <li><a href="http://127.0.0.1:5500/ex001.html" target="frame">Página 1</a></li>
-    <li><a href="http://127.0.0.1:5500/ex002.html" target="frame">Página 2</a></li>
-    <li><a href="https://dev-arthurhenrique.github.io/html-css/Desafios/d007-cordel/" target="frame">Página 3</a></li>
-   </ul>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae earum atque nesciunt omnis adipisci voluptates perferendis cum nihil accusamus ab dignissimos minima debitis, error alias dolore consequatur delectus dicta!</p>
-   <iframe src="" frameborder="1" name="frame"> Seu navegador não é compativel</iframe>
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla dolores corrupti nobis? Rem quod tempora quae officia, nesciunt aperiam ratione laboriosam quasi illo aliquid, doloremque doloribus blanditiis minus. Nihil, labore?</p>
+   <h1>Iframes na mesma página</h1>
+   <ul>
+    <li><a href="http://gustavoguanabara.github.io" target="frame">Primeira página</a></li>
+    <li> <a href="ex002.html" target="frame">Segunda página</a></li>
+    <li> <a href="https://dev-arthurhenrique.github.io/html-css/Desafios/d007-cordel/" target="frame">Terceira página</a></li>
+   </ul> 
+   <h2>Aqui temos o Iframe</h2>
+   <iframe srcdoc="<h1>Escolha uma opção</h1> <img src='https://th.bing.com/th/id/R.d4c95c30af6b4b52625412dbae97640d?rik=awAXcbgw8STRQg&pid=ImgRaw&r=0'>" frameborder="1" name="frame"></iframe>
 </body>
 </html>
