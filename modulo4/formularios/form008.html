@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+        body{
+            background-color: rgb(92, 92, 241);
+            font: normal normal 1.1em 'Arial', sans-serif;
+        }
+        main{
+            background-color: white;
+            width: 40%;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 100px;
+        }
+        main > h1{
+            color: rgb(92, 92, 241);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);
+            padding-bottom: 15px;
+        }
+        main p{
+            padding-bottom: 25px;
+            font-size: 1.1em;
+        }
+        form > p{
+            text-align: left;
+        }
+        input{
+            margin-top: 20px;
+            padding: 15px;
+            width: 92%;
+            font: normal normal 1.1em 'Arial';
+            border-radius: 5px;
+            outline: none;
+        }
+        input:hover{
+            border: 2px solid rgb(92, 92, 241);
+        }
+        textarea{
+            font: normal normal 1.1em 'Arial';
+        }
+        textarea:hover{
+            border: 2px solid rgb(92, 92, 241);
+        }
+        input#enviar{
+            width: 100%;
+            background-color: rgb(92, 92, 241);
+            color: white;
+        }
+        input#enviar:hover{
+            background-color: lightgray;
+            color: rgb(92, 92, 241);
+            transition: 0.2s;
+        }
+    </style>
+</head>
+<body>
+   <main>
+    <h1>Formulário de contato</h1>
+    <p>Informe os dados abaixo para que em breve possamos entrar em contato contigo</p>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="nome">Nome Completo*<br>
+                <input type="text" name="nome" id="nome" required placeholder="Digite seu nome" minlength="3" maxlength="30" size="30" autocomplete="name">
+            </label>
+        </p>
+        <p>
+          <label for="email">Email<br>
+            <input type="email" name="email" id="email" required placeholder="Ex: amigodavizinhanca@gmail.com" minlength="3" maxlength="30" size="30" autocomplete="email">
+        </label>  
+        </p>
+        <p>
+            <label for="celular">Celular<br>
+                <input type="tel" name="celular" id="celular" required placeholder="(xx) xxxxx-xxxx" pattern="\(\d{2}\) \d{5}-\d{4}" size="30">
+            </label>
+        </p>
+        <p>
+            <label for="senha">Senha<br>
+                <input type="password" name="senha" id="senha" required placeholder="Senha de no mínimo 8 dígitos" size="30" minlength="8" maxlength="16">
+            </label>
+        </p>
+        <p>
+            <label for="mensagem">Comentário*<br>
+                <textarea name="mensagem" id="mensagem" cols="29" rows="10"></textarea>
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" id="enviar">
+        </p>
+    </form>
+   </main> 
+</body>
+</html>

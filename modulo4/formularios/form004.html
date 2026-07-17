@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Teste de formulário usando email e número de celular</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="nome">
+                    Nome: <input type="text" name="nome" id="nome" required placeholder="Informe seu nome" minlength="3" maxlength="30" size="30" autocomplete="name">
+                </label>
+            </p>
+            <p>
+                <label for="email">
+                    Email: <input type="email" name="email" id="email" required placeholder="ex: amigodavinzinhanca@gmail.com" minlength="3" maxlength="30" size="30">
+                </label>
+            </p>
+            <p>
+                <label for="cel">
+                    Celular: <input type="tel" name="cel" id="cel" pattern="^\(\d{2}\) \d{5}-\d{4}$" required autocomplete="tel" placeholder="(xx) xxxxx-xxxx">
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

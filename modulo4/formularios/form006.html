@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Teste de formulários</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Cor, range e file</legend>
+            <p>
+                <label for="cor">
+                    Cor: <input type="color" name="cor" id="cor" value="#0000ff">
+                </label>
+            </p>
+            <p>
+                <label for="range">
+                    Nível de Satisfação <input type="range" name="range" id="range" value="5" min="0" max="5">
+                </label>
+            </p>
+            <p>
+                <label for="file">
+                    Escolha uma foto: <input type="file" name="file" id="file">
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
