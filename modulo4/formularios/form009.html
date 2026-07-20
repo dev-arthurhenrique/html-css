@@ -3,128 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formularios</title>
     <link rel="stylesheet" href="form009.css">
+    <title>formularios</title>
 </head>
 <body>
-   <main>
-    <h1>Cadastre-se</h1>
-    <hr>
-    <form action="cadastro.php" method="post" autocomplete="on">
-        <p>
-            <label for="nome">Nome<br>
-                <input type="text" name="nome" id="nome" required placeholder="Digite seu nome" size="30" minlength="3" maxlength="30" autocomplete="nome">
-            </label>
-        </p>
-        <p>
-            <label for="sobrenome">Sobrenome<br>
-                <input type="text" name="sobrenome" id="sobrenome" required placeholder="Digite seu sobrenome" size="30" minlength="3" maxlength="30" autocomplete="nome">
-            </label>
-        </p>
-        <p>
-            <label for="celular">Celular<br>
-                <input type="tel" name="celular" id="celular" required placeholder="(xx) xxxxx-xxxx" autocomplete="tel" pattern="^\(\d{2}\) \d{5}-\d{4}$" size="30">
-            </label>
-        </p>
-        <p>
-            <label for="estado">
-                <select name="estado" id="estado">
-                    <option value="padrao" selected>--- Escolha o Estado ---</option>
-                    <optgroup label="Norte">
-                        <option value="Acre">Acre</option>
-                        <option value="Amapá">Amapá</option>
-                        <option value="Amazonas">Amazonas</option>
-                        <option value="Pará">Pará</option>
-                        <option value="Rondônia">Rondônia</option>
-                        <option value="Roraima">Roraima</option>
-                        <option value="Tocantins">Tocantins</option>
-                    </optgroup>
-                    <optgroup label="Nordeste">
-                        <option value="Alagoas">Alagoas</option>
-                        <option value="Bahia">Bahia</option>
-                        <option value="Ceará">Ceará</option>
-                        <option value="Maranhão">Maranhão</option>
-                        <option value="Paraíba">Paraíba</option>
-                        <option value="Pernambuco">Pernambuco</option>
-                        <option value="Piauí">Piauí</option>
-                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
-                        <option value="Sergipe">Sergipe</option>
-                    </optgroup>
-                    <optgroup label="Centro-Oeste">
-                        <option value="Goiás">Goiás</option>
-                        <option value="Mato Grosso">Mato Grosso</option>
-                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
-                    </optgroup>
-                    <optgroup label="Sudeste">
-                        <option value="Espírito Santo">Espírito Santo</option>
-                        <option value="Minas Gerais">Minas Gerais</option>
-                        <option value="Rio de Janeiro">Rio de Janeiro</option>
-                        <option value="São Paulo">São Paulo</option>
-                    </optgroup>
-                    <optgroup label="Sul">
-                        <option value="Paraná">Paraná</option>
-                        <option value="Santa Catarina">Santa Catarina</option>
-                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
-                    </optgroup>
-                </select>
-            </label>
-        </p>
-        <p>
-            <label for="profissao">Profissão<br>
-                <input type="text" name="profissao" id="profissao" list="prof" required size="30" placeholder="Digite sua profissão">
-                <datalist id="prof">
-                    <option value="Advogado(a)">Advogado(a)</option>
-                    <option value="Arquiteto(a)">Arquiteto(a)</option>
-                    <option value="Bombeiro(a)">Bombeiro(a)</option>
-                    <option value="Contador(a)">Contador(a)</option>
-                    <option value="Chef de Cozinha">Chef de Cozinha</option>
-                    <option value="Dentista">Dentista</option>
-                    <option value="Designer Gráfico">Designer Gráfico</option>
-                    <option value="Engenheiro(a) (Civil, Mecânico, Software, etc.)">Engenheiro(a) (Civil, Mecânico, Software, etc.)</option>
-                    <option value="Farmacêutico(a)">Farmacêutico(a)</option>
-                    <option value="Fisioterapeuta">Fisioterapeuta</option>
-                </datalist>
-            </label>
-        </p>
-        <p>
-            <label for="email">Email<br>
-                <input type="email" name="email" id="email" required size="30" minlength="3" maxlength="30" placeholder="Ex: amigodavizinhanca@gmail.com">
-            </label>
-        </p>
-        <p>
-            <label for="senha">Senha<br>
-                <input type="password" name="senha" id="senha" required size="30" minlength="8" maxlength="16" placeholder="Senha de no mínimo 8 dígitos">
-            </label>
-        </p>
-        <p>
-            <label for="jogos">Jogos<br>
-                <input type="checkbox" name="celeste" id="celeste"> <label for="celeste">Celeste</label>
-                <input type="checkbox" name="cuphead" id="cuphead"> <label for="cuphead">Cuphead</label><br>
-                <input type="checkbox" name="hollow" id="hollow"> <label for="hollow">Hollow Knight</label>
-                <input type="checkbox" name="neva" id="neva"> <label for="neva">Neva</label>
-            </label>
-        </p>
-        <p>
-            Genero<br>
-            <input type="radio" name="genero" id="masculino" checked> <label for="masculino" >Masculino<br></label>
-            <input type="radio" name="genero" id="feminino"> <label for="feminino">Feminino<br></label>
-            <input type="radio" name="genero" id="prefironaodizer"> <label for="prefironaodizer">Prefiro Não Dizer<br></label>
-            <input type="radio" name="genero" id="nenhum"> <label for="nenhum">Nenhum</label>
-        </p>
-        <p>
-            <label for="satisfacao">Nível de Satisfação<br>
-                Baixo <input type="range" name="satisfacao" id="satisfacao" value="100"> Alto
-            </label>
-        </p>
-        <p>
-            <label for="comentario">Comentário<br>
-                <textarea name="comentario" id="comentario" cols="29" rows="10"></textarea>
-            </label>
-        </p>
-        <p>
-            <input type="submit" value="Continuar">
-        </p>
-    </form>
-   </main> 
+    <main>
+        <h1>Cadastre-se</h1>
+        <hr>
+        <form action="cadastro.php" method="post" autocomplete="on">    
+            <p>
+                <label for="nome">
+                    Nome<br>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome completo" required minlength="3" maxlength="50" autocomplete="name" size="50">
+                </label>
+            </p>
+            <p>
+                <label for="email">
+                    Email<br>
+                    <input type="email" name="email" id="email" placeholder="Ex: ameiolivroultimafesta@gmail.com" required minlength="3" maxlength="50" autocomplete="email" size="50">
+                </label>
+            </p>
+            <p>
+                <label for="tel">
+                    Telefone/Celular<br>
+                    <input type="tel" name="tel" id="tel" placeholder="(xx) xxxxx-xxxx" required autocomplete="tel" size="50" pattern="^\(\d{2}\) \d{5}-\d{4}$">
+                </label>
+            </p>
+            <p>
+                <label for="estado">
+                    Estado
+                    <select name="estado" id="estado">
+                        <option value="Escolha seu Estado" selected>Escolha seu Estado</option>
+                        <optgroup label="Norte">
+                            <option value="Acre">Acre</option>
+                            <option value="Amapá">Amapá</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Pará">Pará</option>
+                            <option value="Rondônia">Rondônia</option>
+                            <option value="Roraima">Roraima</option>
+                            <option value="Tocantins">Tocantins</option>
+                        </optgroup>
+                        <optgroup label="Nordeste">
+                            <option value="Alagoas">Alagoas</option>
+                            <option value="Bahia">Bahia</option>
+                            <option value="Ceará">Ceará</option>
+                            <option value="Maranhão">Maranhão</option>
+                            <option value="Paraíba">Paraíba</option>
+                            <option value="Pernambuco">Pernambuco</option>
+                            <option value="Piauí">Piauí</option>
+                            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                            <option value="Sergipe">Sergipe</option>
+                        </optgroup>
+                        <optgroup label="Sudeste">
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Minas Gerais">Minas Gerais</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Espírito Santo">Espírito Santo</option>
+                        </optgroup>
+                        <optgroup label="Centro-Oeste">
+                            <option value="Distrito Federa">Distrito Federal</option>
+                            <option value="Goiás">Goiás</option>
+                            <option value="Mato Grosso">Mato Grosso</option>
+                            <option value=" Mato Grosso do Sul"> Mato Grosso do Sul</option>
+                        </optgroup>
+                        <optgroup label="Sul">
+                            <option value="Paraná">Paraná</option>
+                            <option value="Santa Catarina">Santa Catarina</option>
+                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="profissao">
+                    Profissão<br>
+                    <input type="text" name="profissao" id="profissao" list="lista-estados" placeholder="Informe sua profissão" required>
+                    <datalist id="lista-estados">
+                        <option value="Advogado">Advogado</option>
+                        <option value="Arquiteto">Arquiteto</option>
+                        <option value="Contador">Contador</option>
+                        <option value="Dentista">Dentista</option>
+                        <option value="Engenheiro">Engenheiro</option>
+                        <option value="Médico">Médico</option>
+                        <option value="Professor">Professor</option>
+                        <option value="Psicólogo">Psicólogo</option>
+                    </datalist>
+                </label>
+            </p>
+            <p>
+                <label for="date">
+                    Data do último projeto<br>
+                    <input type="date" name="date" id="date" required>
+                </label>
+            </p>
+            <p>
+                <label for="time">
+                    Horário<br>
+                    <input type="time" name="time" id="time">
+                </label>
+            </p>
+            <p>
+                <label for="file">
+                    Arquivo<br>
+                    <input type="file" name="file" id="file">
+                </label>
+            </p>
+            <p>
+                <label for="comentario">
+                    Comentário<br>
+                    <textarea name="comentario" id="comentario"></textarea>
+                </label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" id="enviar">
+            </p>
+        </form>
+    </main>
 </body>
 </html>
