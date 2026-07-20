@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form010.css">
+    <title>projeto-login</title>
+</head>
+<body>
+   <main>
+    <h1>Login</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <label for="username">
+            <p>
+               <input type="text" name="username" id="username" required placeholder="Username" minlength="3" maxlength="20"> <img src="001-do-utilizador.png" alt="people-login-icon">
+            </p>
+        </label>
+        <label for="password">
+            <p>
+                <input type="password" name="password" id="password" required placeholder="Password" minlength="8" maxlength="16"> <img src="simbolo-de-cadeado-para-interface-de-seguranca.png" alt="">
+            </p>
+        </label>
+        <p>
+            <input type="checkbox" name="relembrar" id="relembrar"> <label for="relembrar">Remember me</label><a href="#">Forgot passWord ?</a>
+        </p>
+        <p>
+            <input type="submit" value="Login" id="login">
+        </p>
+        <p id="nao-tem-conta">Don't have on account <a href="#">Registar</a></p>
+    </form>
+   </main> 
+   <!-- <footer>
+    <div><em>&copy;Arthur Henrique</em></div>
+    <em>
+        <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/magnific" title="Magnific"> Magnific </a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div>
+        <div> Ícones feitos por <a href="https://www.flaticon.com/br/autores/magnific" title="Magnific"> Magnific </a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com'</a></div>
+        <a href="https://www.flaticon.com/br/icones-gratis/fechadura" title="fechadura ícones">Fechadura ícones criados por Magnific - Flaticon</a>
+    </em>
+   </footer> -->
+</body>
+</html>
+
