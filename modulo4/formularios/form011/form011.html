@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form011.css">
+</head>
+<body>
+    <main>
+        <h1>Cadastro de DEVs</h1>
+        <p>Complete suas informações</p>
+        <form action="post" autocomplete="off">
+            <div class="container">
+                <div class="filho">
+                    <label for="nome">
+                        Nome<br>
+                        <input type="text" name="nome" id="nome">
+                    </label>
+                </div>
+                <div class="filho">
+                    <label for="sobrenome">
+                        Sobrenome<br>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </label>
+                </div>
+            </div>
+            <div class="container">
+                <div class="filho">
+                    <label for="email">
+                        Email<br>
+                        <input type="email" name="email" id="email">
+                    </label>
+                </div>
+                <div class="filho">
+                    <label for="tel">
+                        Celular<br>
+                        <input type="tel" name="tel" id="tel">
+                    </label>
+                </div>
+            </div>
+            <div>
+                <p>De qual lado da aplicação você desenvolve? De qual lado da aplicação você desenvolve?</p>
+                <input type="radio" name="aplicacao" id="front" checked> <label for="front">Front-End<br></label>
+                <input type="radio" name="aplicacao" id="back"> <label for="back">Back-End<br></label>
+                <input type="radio" name="aplicacao" id="full"> <label for="full">Fullstack</label>
+            </div>
+            <div>
+                <label for="senhoridade">Senhoridade<br></label>
+                <select name="senhoridade" id="senhoridade">
+                    <option value="Selecione"> Selecione</option>
+                    <option value="Júnior">Júnior</option>
+                    <option value="Pleno">Pleno</option>
+                    <option value="Sênior">Sênior</option>
+                </select>
+            </div>
+            <div>
+                <p>Selecione as tecnologias que utiliza:</p>
+                <input type="checkbox" name="html" id="html" checked> <label for="html">HTML</label>
+                <input type="checkbox" name="css" id="css"> <label for="css">CSS</label>
+                <input type="checkbox" name="js" id="js"> <label for="js">JavaScript</label>
+                <input type="checkbox" name="php" id="php"> <label for="php">PHP</label>
+                <input type="checkbox" name="c" id="c"> <label for="c">C#</label>
+                <input type="checkbox" name="python" id="python"> <label for="python">Python</label>
+                <input type="checkbox" name="java" id="java"> <label for="java">Java</label>
+            </div>
+            <button>Continue</button>
+        </form>
+    </main>
+</body>
+</html>

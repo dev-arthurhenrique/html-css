@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font: normal normal 1.1em 'Arial', sans-serif;
+    background: lightblue url(imagem-fundo.jpg) right center no-repeat;
+    background-size: cover;
+}
+main{
+    min-width: 200px;
+    max-width: 600px;
+    background-color: transparent;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid #65a7aa7b;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 2px #65a7aa7b;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            color: rgb(0, 0, 0);
+            padding: 15px;
+            border-radius: 20px;
+            margin-top: 10px;
+            animation: aumentarTamanho 1.5s ease infinite;
+            /* transition: scale .3s ease-out; */
+        }
+        button:hover{
+            background-color: black;
+            color: bisque;
+        }
+        @keyframes aumentarTamanho {
+            0%, 100% {
+                scale: 100%;
+            }
+
+            50% {
+                scale: 110%;
+            }
+        } 
+    </style>
+</head>
+<body>
+  <main>
+    <h1>Login</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <div>
+            <label for="email">Email<br> <input type="email" name="email" id="email" required minlength="3" maxlength="20"></label>
+        </div>
+        <button>Entrar</button>
+    </form>
+  </main>  
+</body>
+</html>
