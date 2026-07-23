@@ -1,18 +1,26 @@
-body{
+body {
     background-color: #141618;
 }
-div{
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
+div {
+    background-color: rgb(94, 115, 221);
+    width: 100px;
+    height: 100px;
     margin: auto;
     margin-top: 300px;
+    font-size: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100px;
 
-    transition-property: width;
-    transition-duration: 1s;
-    transition-timing-function: ease; /*começa rapido termina devagar etc */
-    transition-delay: 0s;
+    transition-property:transform, border-radius, opacity;
+    transition-duration: .7s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
 }
-div:hover{
-    width: 400px;
+div:hover { 
+    opacity: 0.5;
+    transform: translateY(-7px);
+    background-color: rgb(5, 7, 46);
+    
+    border-radius: 20px;
 }
