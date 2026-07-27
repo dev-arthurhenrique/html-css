@@ -1,0 +1,27 @@
+body {
+    padding: 20px;
+}
+div {
+    position: relative;
+}
+div > label {
+    position: absolute;
+    top: 0;
+    left: 7px;
+    transition: top .4s,left .4s, font-size .4s;
+}
+div > input:focus + label {
+    top: -25%;
+    left: 2px;
+    font-size: 10px;
+    background-color: white;
+}
+div > input:not(:focus)::placeholder {
+    color: transparent;
+}
+div > input:valid + label {
+    top: -25%;
+    left: 2px;
+    font-size: 10px;
+    background-color: white
+}

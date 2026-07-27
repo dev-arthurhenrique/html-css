@@ -12,15 +12,13 @@ div {
     text-align: center;
     line-height: 100px;
 
-    transition-property:transform, border-radius, opacity;
-    transition-duration: .7s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.3s;
+    
 }
 div:hover { 
-    opacity: 0.5;
-    transform: translateY(-7px);
-    background-color: rgb(5, 7, 46);
+    transform: rotate(180deg);
     
-    border-radius: 20px;
 }

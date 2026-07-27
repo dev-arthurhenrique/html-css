@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Login</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <div class="formulario">
+          <input type="email" name="email" id="email" required placeholder="minhairmaquerumgato@gmail.com" minlength="3" maxlength="20" size="30">
+          <label for="email">Email <img src="../ex003-form-animado/imagens/001-do-utilizador.png" alt=""></label>
+        </div>
+        <div class="formulario">
+          <input type="password" name="senha" id="senha" required placeholder="Senha de no mínimo 8 dígitos" minlength="8" maxlength="20" size="30">
+          <label for="senha">Senha<img src="../ex003-form-animado/imagens/simbolo-de-cadeado-para-interface-de-seguranca.png" alt=""></label>
+        </div>
+        <div id="relembrar">
+          <input type="checkbox" name="relembra" id="relembra">
+          <label for="relembra">Remember me</label>
+          <a href="#">Esqueceu a senha? </a>
+        </div>
+        <div id="login">
+          <input type="submit" value="Login">
+        </div>
+        <p>Você não tem uma conta? <a href="#">Registre</a></p>
+    </form>
+  </main>  
+</body>
+</html>

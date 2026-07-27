@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: white url(imagens/imagemfundo.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    min-width: 200px;
+    max-width: 800px;
+    margin: auto; 
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.488);
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.873);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+main > h1 {
+    font-weight: 800;
+    text-align: center;
+    color: #0f1010;
+    padding-bottom: 30px;
+}
+.formulario {
+    position: relative;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+main > form > .formulario > input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #192A3C;
+}
+main > form > .formulario > input:not(:focus)::placeholder {
+    color: transparent;
+}
+main > form > .formulario > label {
+    font-size: 0.9em;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    color: #0e1217;
+    transition: top .4s;
+}
+main > form > .formulario > input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #192A3C;
+}
+main > form > .formulario > input:focus::placeholder {
+    color: #192A3C;
+}
+main > form > .formulario > input:focus + label {
+    top: -100%;
+}
+main > form > .formulario > input:not(:placeholder-shown) + label {
+    top: -100%;
+}
+.restante > a {
+    margin-left: 10px;
+    color: #0e1217;
+    text-decoration: none;
+}
+.restante > a:hover {
+    text-decoration: underline;
+}
+div#login > input{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #192A3A;
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    transition: scale .4s ease-in-out, background-color .4s ease-in-out, transform .4s;
+}
+div#login > input:hover {
+    scale: 1;
+    background-color: #243c52;
+    transform: translateY(-1px);
+}
