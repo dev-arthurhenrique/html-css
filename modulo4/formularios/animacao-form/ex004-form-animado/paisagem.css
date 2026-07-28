@@ -1,0 +1,6 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #002232 url(imagem-fundo-gato.jpg) center bottom no-repeat fixed;
+    background-size: contain;
+}

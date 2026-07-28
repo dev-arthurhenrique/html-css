@@ -9,7 +9,7 @@ body {
     align-items: flex-start;
     height: 100vh;
     height: 100vh;
-    background: white url(imagem-fundo-gato.jpg) center center no-repeat fixed;
+    background: #002232 url(imagem-fundo-gato.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 main {
