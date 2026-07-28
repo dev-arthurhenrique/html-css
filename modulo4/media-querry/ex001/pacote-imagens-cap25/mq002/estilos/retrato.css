@@ -1,0 +1,8 @@
+/* modo retrato / portrait */
+body {
+    height: 100vh;
+    width: 100vw;
+    background: white url(../imagens/cev-portrait.jpg) center bottom no-repeat fixed;
+    background-size: contain;
+    background-color: #233EFF;
+}

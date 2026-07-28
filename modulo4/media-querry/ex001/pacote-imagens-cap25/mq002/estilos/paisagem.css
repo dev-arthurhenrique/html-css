@@ -1,0 +1,8 @@
+/* modo paisagem / landscape */
+
+body {
+    background: white url(../imagens/cev-landscape.jpg) left bottom no-repeat fixed;
+    background-size: contain;
+    background-color: #233EFF;
+
+}
