@@ -1,0 +1,38 @@
+/* Demais midias */
+
+/* Tipical device brakpoints */
+
+@media screen and (max-width: 600px){
+    body{
+        background-image: url(../imagens/back-phone.jpg);
+    }
+}
+/* Médio (tablets em paisagem) */
+@media screen and (min-width: 600px){
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet {display: block;}
+}
+/* Grande (laptops/desktops) */
+@media screen and (min-width: 992px) {
+    body {
+        background: url(../imagens/back-pc.jpg) center center;
+    }
+    img#tablet{display: none;}
+    img#pc{display: block;}
+}
+/* Extra grande (desktops largos ≥1200px) */
+@media screen and (min-width: 1200px){
+    body {
+        background: url(../imagens/back-tv.jpg);
+    }
+    img#pc{display: none;}
+    img#tv{display: block;}
+}
+@media print {
+    img#print  {
+       display: block;
+    }
+}

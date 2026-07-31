@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1>Projeto Login</h1>
+        <span id="burguer" class="material-symbols-outlined">menu</span>
+        <menu id="menu">
+            <ul>
+                <li>Início</li>
+                <li>Sobre</li>
+                <li>Mais Projetos</li>
+                <li>Contato</li>
+            </ul>
+        </menu>
+    </header>
+   <div id="imagem"></div>
+   <main>
+    <h1>Login</h1>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum illo libero porro quos quae eaque laborum quia, rerum, incidunt adipisci qui, alias aliquid! Quidem quisquam possimus rerum perferendis facilis.</p>
+    <form action="cadastro.php" method="post">
+        <div class="formulario">
+            <input type="email" id="inputGamer" placeholder="Ex: contato@login.com" minlength="3" maxlength="20" class="formularios">
+            <label for="inputGamer">Email</label>
+        </div>
+        <div class="formulario">
+            <input type="password" name="" id="password" placeholder="minimo 8 dígitos" minlength="8" maxlength="16" class="formularios">
+            <label for="password">Senha</label>
+        </div>
+        <p id="login"><input type="button" value="ENTRAR"></p>
+        <p id="esqueciSenha"><input type="button" value="Esqueci minha senha"></p>
+    </form>
+   </main> 
+   <script src="script.js"></script>
+</body>
+</html>

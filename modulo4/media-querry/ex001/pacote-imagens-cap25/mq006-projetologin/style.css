@@ -1,0 +1,159 @@
+/* mobile first */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: cursive, sans-serif;
+    height: 100vh;
+}
+header {
+    background-color: #362a15;
+    color: #FD4A07;
+}
+header h1 {
+    text-align: center;
+    padding: 30px;
+}
+header span#burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: background-color .4s ease-in-out;
+}
+header span#burguer:hover {
+    background-color: #FD4A07;
+    color: #FDEDCC;
+    cursor: pointer;
+}
+header #menu {display: none;}
+header li {
+    
+    font-size: 1.3em;
+    text-align: center;
+    background-color: #FDEDCC;
+    border: 1px solid #291B0E;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform .4s ease-in-out;
+}
+header li:hover {
+    background-color: #FD4A07;
+    color: #FDEDCC;
+    transform: translateY(-5px);
+}
+div#imagem {
+    height: 40vh;
+    width: 97vw;
+    background: white url(imagens/imagem.jpg) center bottom no-repeat;
+}
+main {
+    min-width: 200px;
+    max-width: 700px;
+    padding: 20px;
+}
+main h1 {
+    text-align: center;
+    margin: 20px;
+    color: #66280A;
+}
+main p#paragrafo {
+    text-align: justify;
+    margin-bottom: 70px;
+}
+.formulario {
+    position: relative;
+    text-align: center;
+}
+.formulario input.formularios {
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    width: 80%;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid #291B0E;
+}
+.formulario input.formularios:hover + label {
+    color: #FD4A07;
+}
+.formulario input.formularios::placeholder {
+    color: #070503;
+}
+.formulario input.formularios:not(:focus)::placeholder {
+    color: transparent;
+}
+.formulario input.formularios:focus {
+    border: 2px solid #FD4A07;
+}
+.formulario label {
+    position: absolute;
+    left: 15%;
+    top: 10px;
+    color: #291B0E;
+    transition: top .2s ease-in-out, left .2s ease-in-out;
+}
+.formulario input.formularios:focus + label {
+    left: 12%;
+    top: -12px;
+    background-color: white;
+    color: #FD4A07;
+    padding: 0 5px;
+}
+.formulario input.formularios:not(:placeholder-shown) {
+    border: 2px solid #FD4A07;
+}
+.formulario input.formularios:not(:placeholder-shown) + label {
+    left: 12%;
+    top: -12px;
+    background-color: white;
+    color: #FD4A07;
+    padding: 0 5px; 
+}
+p#login {
+    text-align: center;
+    
+}
+p#login input{
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    outline: none;
+    width: 80%;
+    color: #FD4A07;
+    background-color: #474D50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform .4s ease-in-out, scale .4s ease-in-out;
+}
+p#login input:hover {
+    background-color: #FD4A07;
+    color: #474D50;
+    transform: rotate(2deg);
+    scale: 1.1;
+}
+p#esqueciSenha {
+     text-align: center
+}
+p#esqueciSenha input {
+    padding: 15px;
+    border-radius: 15px;
+    outline: none;
+    width: 80%;
+    margin-top: 0;
+    cursor: pointer;
+    background-color: #FD4A07;
+    color: #474D50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    transition: transform .4s ease-in-out, scale .4s ease-in-out;
+}
+p#esqueciSenha input:hover {
+    background-color: #474D50;
+    color: #FD4A07;
+    transform: rotate(-2deg);
+    scale: 1.1;
+}
