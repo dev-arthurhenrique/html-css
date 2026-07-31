@@ -46,7 +46,7 @@ header li:hover {
 }
 div#imagem {
     height: 40vh;
-    width: 97vw;
+    width: 100vw;
     background: white url(imagens/imagem.jpg) center bottom no-repeat;
 }
 main {
