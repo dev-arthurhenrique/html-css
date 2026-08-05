@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        .container {
+            background-color: aquamarine;
+            display: flex;
+            height: 500px;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        .child {
+            border: 1px solid purple;
+            padding: 20px;   
+        }
+        div#i1 {
+            text-align: center;
+            flex-basis: 100px;
+            align-self: auto;
+            order: 1;
+        }
+        div#i2 {
+            align-self: self-end;
+        }
+        div#i3 {
+            align-self: center;
+        }
+        div#i4 {
+            align-self: self-end;
+        }
+        div#i5 {
+            align-self: stretch;
+        }
+        div#i6 {
+            align-self: center;
+        }
+        div#i7 {
+            align-self: center;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="child" id="i1">A</div>
+    <div class="child" id="i2">B</div>
+    <div class="child" id="i3">C</div>
+    <div class="child" id="i4">D</div>
+    <div class="child" id="i5">E</div>
+    <div class="child" id="i6">F</div>
+    <div class="child" id="i7">G</div>
+  </div>  
+</body>
+</html>

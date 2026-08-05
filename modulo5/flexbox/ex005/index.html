@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .conteiner {
+            background-color: bisque;
+            display: flex; 
+            flex-flow: row wrap;
+
+        }
+        .itens {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            flex-basis: 20%; 
+        }
+    </style>
+</head>
+<body>
+   <div class="conteiner">
+    <div class="itens">meu conteudo A</div>
+    <div class="itens">esse é o maior conteudo B</div>
+    <div class="itens">C</div>
+    <div class="itens">D</div>
+    <div class="itens">E</div>
+    <div class="itens">F</div>
+    <div class="itens">G</div>
+   </div> 
+</body>
+</html>
