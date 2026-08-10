@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            background-color: salmon;
+            height: 400px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        .filhos {
+            flex-shrink: 1;
+            flex-grow: 1;
+            flex-basis: 200px;
+            margin: 10px;
+            width: 100px;
+            padding: 20px;
+            border: 1px solid black;
+            text-align: center;
+            background-color: cadetblue;
+        }
+        div#i1 {align-self: self-start; order: 1;}
+        div#i2 {align-self: center; order: 2;}
+        div#i3 {align-self: self-end; order: -1;}
+        div#i4 {align-self: stretch;}
+        div#i5 {align-self: stretch;}
+        div#i6 {align-self: self-start;}
+        div#i7 {align-self: self-end;}
+
+    </style>
+</head>
+<body>
+   <h1>Revisão de flexbox</h1>
+   <div class="container">
+    <div class="filhos" id="i1">A</div>
+    <div class="filhos" id="i2">B</div>
+    <div class="filhos" id="i3">C</div>
+    <div class="filhos" id="i4">D</div>
+    <div class="filhos" id="i5">E</div>
+    <div class="filhos" id="i6">F</div>
+    <div class="filhos" id="i7">G</div>
+   </div> 
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* Mobile first */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+}
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    font-family: cursive, sans-serif;
+    padding: 20px 0 0 0;
+    margin-bottom: 30px;
+}
+header > span#burguer {
+    cursor: pointer;
+    transition: color .4s ease-in-out;
+}
+header > span#burguer:hover {
+    color: black;
+}
+header > menu {
+    display: none;
+    
+}
+header > menu > ul {
+    list-style-type: none;
+    cursor:pointer;
+}
+header > menu > ul > li {
+    border: 1px solid white;
+    margin-top: 10px;
+    background-color: black;
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+    transition: color .4s ease-in-out, background-color .4s ease-in-out;
+}
+header > menu > ul > li:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+main {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    min-width: 200px;
+    max-width: 800px;
+    
+}
+main > p {
+    text-align: justify;
+    margin-top: 20px;
+}
+@media screen and (min-width: 648px) {
+    header {
+        align-items: flex-start;
+    }
+    header > menu > ul{
+        display: flex;
+        width: 100vw;
+    }
+    header > menu > ul > li {
+        margin: 10px;
+    }
+    header > span#burguer {
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px){
+    header {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    header > menu > ul {
+        width: 50vw;
+    }
+}
