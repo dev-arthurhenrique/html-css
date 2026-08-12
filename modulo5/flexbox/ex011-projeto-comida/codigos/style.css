@@ -133,3 +133,62 @@ main h3 {
 .filhosCardapio > .conteudoCardapio > a:hover {
     text-decoration: underline;
 }
+.avaliacoes {
+    margin: auto;
+    text-align: center;
+    margin: 80px 0;
+    line-height: 50px;
+}
+.imagemCliente {
+    width: 50%;
+    border-radius: 50%;
+    height: 210px;
+    transition: transform .4s ease-in-out;
+}
+.imagemCliente:hover {
+    transform: scale(1.1);
+}
+aside {
+    background-color: white;
+}
+aside > img#imagemParaContato {
+    width: 100%;
+}
+aside > form {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+}
+aside > form > h4 {
+    color: #486938;
+}
+aside > form > div#contatoCliente {
+    position: relative;
+}
+aside > form > div#contatoCliente > input {
+    padding: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #486938;
+    width: 100%;
+    
+}
+aside > form > div#contatoCliente > label {
+    position: absolute;
+    left: 30px;
+    color: #644B47;
+    transition: top .4s ease-in-out;
+}
+aside > form > div#contatoCliente > input:focus + label {
+    top: -25px;
+    left: 5px;
+    background-color: white;
+    padding: 0 5px;
+}
+aside > form > div#contatoCliente > input:not(:placeholder-shown) + label {
+    top: -25px;
+    left: 5px;
+    background-color: white;
+    padding: 0 5px;
+}
