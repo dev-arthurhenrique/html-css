@@ -1,0 +1,135 @@
+/* Mobile First */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #919191;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background: white url(../imagens/header-image2.jpg) center bottom no-repeat;  
+    background-size: cover;
+    background-color: transparent;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.627);
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 0;
+}
+span#menu {
+    cursor: pointer;
+    scale: 1.5;
+}
+nav#nav {
+    display: none;
+}
+nav#nav > ul {
+    list-style-type: none;
+    margin: 40px;
+    line-height: 60px;
+    font-size: 1.1em;
+}
+nav#nav > ul > li {
+    transition: transform .2s ease-in-out;
+}
+nav#nav > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #644B47;
+    transform: rotate(5deg);
+}
+.primeiraImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    line-height: 40px;
+}
+.divPrimeiraImagem > p > a {
+    display: block;
+    background-color: #658755;
+    box-shadow: 0 0 15px  rgba(0, 0, 0, 0.672);
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color .4s ease-in-out, color .4s ease-in-out;
+}
+.divPrimeiraImagem > p > a:hover {
+    background-color: white;
+    color: #658755;
+}
+main {
+    padding: 70px 30px;
+    text-align: justify;
+    background-color: white;
+}
+main h2 {
+    color: #658755;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main h3 {
+    margin-bottom: 10px;
+}
+
+.sobre > img {
+    margin-top: 50px;
+    width: 100%;
+}
+.imagensTiposComida > img {
+    width: 100%;
+    margin-bottom: 40px;
+    transition: opacity .4s ease-in-out;
+}
+.imagensTiposComida > img:hover {
+    opacity: 0.5;
+}
+.filhosCardapio {
+    margin: auto;
+    text-align: center;
+    background-color: #919191;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 30px 0;
+    transition: opacity .4s ease-in-out, box-shadow .4s ease-in-out;
+}
+.filhosCardapio:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 0 0 15px;
+}
+.filhosCardapio > img {
+    display: block;
+    width: 50%;
+    height: 170px;
+    border-radius: 50%;
+    margin: auto;
+}
+.filhosCardapio > .conteudoCardapio {
+    padding: 30px 0;
+    line-height: 1.5em;
+}
+.filhosCardapio > .conteudoCardapio > h4 {
+    font-size: 1.2em;
+    color: #644B47;
+}
+.filhosCardapio > .conteudoCardapio > a {
+    color: #658755;
+    font-weight: 800;
+    text-decoration: none;
+    transition: text-decoration .4s ease-in-out;
+    text-shadow: 1px 1px 1px black;
+}
+.filhosCardapio > .conteudoCardapio > a:hover {
+    text-decoration: underline;
+}
