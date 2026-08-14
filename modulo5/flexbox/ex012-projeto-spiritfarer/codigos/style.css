@@ -52,7 +52,7 @@ h2 {
     padding: 15px;
 }
 .header > menu#menu > nav > ul  > li{
-    color: #8556DC;
+    color: white;
     font-size: 1em;
     padding: 20px;
     transition: transform .4s ease-in-out, color .4s ease-in-out;
@@ -109,7 +109,7 @@ article#dados > ul.listaDados > li > h3 {
     color: #8556DC;
     padding-bottom: 10px;
 }
-article#dados > ul.listaDados > li > p > img.redes {
+article#dados > ul.listaDados > li > p > a > img.redes {
     background-color: #bac1b2;
     padding: 10px;
     width: 60px;
@@ -118,7 +118,7 @@ article#dados > ul.listaDados > li > p > img.redes {
     transition: transform .4s ease-in-out;
     filter: brightness(1) invert(1); /* Inverte as cores das imagens*/
 }
-article#dados > ul.listaDados > li > p > img.redes:hover {
+article#dados > ul.listaDados > li > p > a > img.redes:hover {
     transform: translate(5px, 5px);
     cursor: pointer;
     opacity: 0.7;
@@ -166,14 +166,10 @@ article#dados > ul.listaDados > li > p > img.redes:hover {
 }
 
 /* Personagens */
-
-.personagens {
-    display: flex;
-    flex-flow: row wrap;
-}
 .personagens > .cardPersonagem {
+    display: flex;
     margin: auto;
-    width: 400px;
+    width: 90%;
     background-color: #453E4D;
     margin-bottom: 100px;
     padding: 30px;
@@ -200,6 +196,10 @@ article#dados > ul.listaDados > li > p > img.redes:hover {
 .informacoesPersonagem > h3 {
     color: #C3A618;
     margin-bottom: 40px;
+}
+.informacoesPersonagem > p {
+    font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 /* Ajustando tamanho de específicos personagens*/
