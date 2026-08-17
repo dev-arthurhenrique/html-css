@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Primeiro Grid</title>
+    <style>
+        .container {
+            border: 3px solid pink;
+            height: 800px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px;
+            gap: 5px;
+
+            justify-items: stretch;
+            align-items: stretch;
+
+            justify-content: center;
+            align-content: center;
+        }
+        .item {
+            border: 3px solid greenyellow;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+   </div> 
+</body>
+</html>

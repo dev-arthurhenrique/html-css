@@ -178,6 +178,10 @@ article#dados > ul.listaDados > li > p > a > img.redes:hover {
     border-radius: 15px;
     transition: transform .4s ease-in-out;
     border: 2px solid rgba(255, 255, 255, 0.408);
+    overflow-y: auto;
+}
+.personagens > .cardPersonagem::-webkit-scrollbar {
+    width: 5px;
 }
 .personagens > .cardPersonagem:hover {
     transform: translateY(-10px);
