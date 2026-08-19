@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itens</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            border: 2px solid lightgreen;
+            display: grid;
+            grid-template: repeat(7, 100px) / repeat(5, 1fr);
+            gap: 10px;
+        }
+        .topo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            grid-area: 1 / 1 / span 2 / -1;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+            grid-area: 3 / 1 / span 1 / -1;
+        }
+        .principal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+            grid-area: 4 / 1 / span 3 / span 3;
+        }
+        .secundario {
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: 4 / 4 / span 3 / span 2;
+        }
+        .rodape {
+            background-color: greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: 7 / 1 / -1 / -1;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topo">Topo</div>
+    <div class="menu">Menu</div>
+    <div class="principal">Principal</div>
+    <div class="secundario">Secundário</div>
+    <div class="rodape">Rodapé</div>
+  </div>  
+</body>
+</html>
