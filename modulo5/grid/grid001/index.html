@@ -7,21 +7,13 @@
     <style>
         .container {
             border: 3px solid pink;
+            height: 400px;
+            width: 800px;
             display: grid;
 
-            /* quantidade de linhas e colunas e a altura e largura */
-
-            grid-template-rows: 100px 100px 200px;
-            grid-template-columns:auto auto;
-
-            /* Justify e Align */
-
-            justify-items: end;
-            align-items: end; 
-
-            justify-content: space-around;
-            align-content: start;
-
+            /* grid-template: repeat(3,100px) / repeat(3,1fr);
+            place-items: start end;
+            place-content: space-around space-around; */
         }
         .item {
             border: 3px solid greenyellow;
@@ -30,7 +22,7 @@
 </head>
 <body>
    <div class="container">
-    <div class="item">A</div>
+    <div class="item" id="a">A</div>
     <div class="item">B</div>
     <div class="item">C</div>
     <div class="item">D</div>

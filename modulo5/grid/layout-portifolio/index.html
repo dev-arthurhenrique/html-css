@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dasktop.css" media="screen and (min-width: 920px)">
+    <title>teste</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 30fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .item {
+            border: 2px solid black;
+        }
+        #a {
+            grid-row-start: 1;
+            grid-row-end: -1;
+        }
+        #c {
+            grid-column-start: 3;
+            grid-row-start: 1;
+            grid-row-end: -1;
+        }
+        #detalhes {
+            grid-column-start: 2;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="item" id="a">A</div>
+    <div class="item" id="ficha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nostrum modi cupiditate labore ullam earum, laboriosam officiis sequi aut repudiandae molestiae consectetur voluptates illum molestias quisquam atque sint reiciendis vel?</div>
+    <div class="item" id="c">C</div>
+    <div class="item" id="detalhes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut tenetur neque error molestias commodi doloremque quia accusamus quis, eos explicabo sed, fugiat magni nemo quaerat iste officia distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis blanditiis molestias ex nisi. Dolor animi distinctio illum vitae ratione error quidem, quo magnam asperiores hic. Officia similique voluptates quod amet.</div>
+   </div>
+</body>
+</html>

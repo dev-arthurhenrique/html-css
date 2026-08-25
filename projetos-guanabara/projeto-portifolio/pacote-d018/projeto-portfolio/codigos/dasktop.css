@@ -1,0 +1,16 @@
+main {
+    grid-template-columns: 1fr 15fr 30fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+main > section#ficha {
+    position: sticky;
+    top: 100px;
+    grid-area: 1 / 2 / -1 / 3;
+    align-self: start;
+}
+main > section#zonaMorta2 {
+    grid-area: 1 / 4 / -1 / 5;
+}
+main > section#detalhes {
+    grid-area: 1 / 3 / -1 / 4;
+}
