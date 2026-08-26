@@ -46,7 +46,7 @@ menu > a  > img {
 main {
   display: grid;
   grid-template-columns: 1fr 30fr 1fr;
-  grid-template-rows: 0.5fr 5fr;
+  grid-template-rows: 0.1fr 1fr;
   gap: 10px;
 }
 main > section#zonaMorta1 {
@@ -67,8 +67,8 @@ main > section#ficha {
 }
 main > section#ficha > img {
   display: block;
-  width: 70%;
-  height: 30%;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
