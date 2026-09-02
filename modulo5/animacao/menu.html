@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacao toggle</title>
+    <style>
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       } 
+       body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       button {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        border: 2px solid #ccc;
+        cursor: pointer;
+        background-color: transparent;
+        transition: .2s ease-in-out;
+       }
+       button.ativar {
+        border: 2px solid red;
+       }
+       button.ativar .linha:nth-child(1) {
+        transform: rotate(-45deg) translateY(20px) translateX(-20px);
+        background-color: red;
+       }
+       button.ativar .linha:nth-child(2) {
+        opacity: 0;
+       }
+       button.ativar .linha:nth-child(3) {
+        transform: rotate(45deg) translateY(-20px) translateX(-20px);
+        background-color: red;
+       }
+       .linha {
+        display: block;
+        margin: 20px auto;
+        background-color: #ccc;
+        width: 200px;
+        height: 8px;
+        transition: .2s ease-in-out;
+       }
+    </style>
+</head>
+<body>
+   <button onclick="animar()" id="botaoMenu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+   </button> 
+   <script>
+    function animar () {
+        const botaoMenu = document.getElementById('botaoMenu')
+        botaoMenu.classList.toggle('ativar')
+    }
+   </script>
+</body>
+</html>

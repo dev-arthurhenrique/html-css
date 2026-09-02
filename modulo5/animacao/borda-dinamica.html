@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacao</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            text-align: center;
+            margin-top: 50px;
+            font-family: cursive;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 0 50px 10px 0;
+            font-size: 1.1em;
+            position: relative;
+        }
+        nav a::after {
+            content: " ";
+            width: 0;
+            height: 4px;
+            background-color: black;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transition: .4s ease-in-out;
+        }
+        nav a:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   <nav>
+    <a href="">Home</a>
+    <a href="">Sobre</a>
+    <a href="">Blog</a>
+    <a href="">Contato</a>
+   </nav> 
+</body>
+</html>
